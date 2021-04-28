@@ -1,7 +1,7 @@
 //計算系
 const caluculate = (Num) => {
-	const oneVol = [7,1,1,0.8,0.075];
-	let resultVol = [7,1,1,0.8,0.075];
+	const oneVol = [7,1,1,0.075,0.8];
+	let resultVol = [7,1,1,0.075,0.8];
 	let i = 0;
 	//計算と格納
 	while(i < 5){
