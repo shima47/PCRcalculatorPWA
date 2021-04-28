@@ -51,7 +51,7 @@
     ],
     "lang": "ja",
     "dir": "ltr",
-    "scope": "/PCRcaluculatorPWA/",
+    "scope": "",
     "start_url": "./?utm_source=homescreen",
     "display": "standalone",
     "orientation": "any",
