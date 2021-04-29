@@ -1,10 +1,10 @@
 //計算系
 const caluculate = (Num) => {
-	const oneVol = [7,1,1,0.075,0.8];
-	let resultVol = [7,1,1,0.075,0.8];
+	const oneVol = [7,1,1,0.075,0.8,9.075,9.875];
+	let resultVol = [7,1,1,0.075,0.8,9.075,9.875];
 	let i = 0;
 	//計算と格納
-	while(i < 5){
+	while(i < 7){
 		let a = oneVol[i] * Num;
 		let b = a * 1000;
 		let result = Math.round(b) / 1000;
@@ -22,7 +22,7 @@ const caluculate = (Num) => {
 	//右列の項目を書き換え
 	i = 0;
 	let j = 5;
-	while(i < 5){
+	while(i < 7){
 		$col[j].textContent = resultVol[i] + "μL";
 		i++;
 		j = j + 3;
