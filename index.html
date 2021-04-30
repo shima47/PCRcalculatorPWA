@@ -3,6 +3,8 @@
 <head>
   <!-- manifest.jsonを呼び出しています -->
   <link rel="manifest" href="./manifest.json">
+  <!-- PWAcompatを呼び出しています -->
+  <link rel="manifest" href="manifest.webmanifest" />
   <script>
     // service workerが有効なら、service-worker.js を登録します
     if ('serviceWorker' in navigator) {
@@ -93,6 +95,9 @@
 		</div>
 	</div>
 	
+    	<script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.6/pwacompat.min.js"
+	integrity="sha384-GOaSLecPIMCJksN83HLuYf9FToOiQ2Df0+0ntv7ey8zjUHESXhthwvq9hXAZTifA"
+	crossorigin="anonymous"></script>
 	<script type="text/javascript" src="PCRcalculatorPWA.js"></script>
 	
 </body>
